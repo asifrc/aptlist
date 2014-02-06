@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "test": "mocha -R spec"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec "
   },
   "dependencies": {
     "express": "3.4.8",
     "jade": "*",
     "mongoose": "*",
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "istanbul": "*"
   }
 }
