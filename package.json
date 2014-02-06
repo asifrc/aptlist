@@ -12,6 +12,7 @@
     "mongoose": "*",
     "mocha": "*",
     "should": "*",
-    "istanbul": "*"
+    "istanbul": "*",
+    "coveralls": "*"
   }
 }
