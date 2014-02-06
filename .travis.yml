@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+ - "0.10"
+services:
+ - mongodb
+deploy:
+ provider: heroku
+ api_key: "e7fa7ae0-df79-4471-a424-377dc7065efb"
+notifications:
+ email:
+  - aptlist@asifchoudhury.com
